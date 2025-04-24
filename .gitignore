@@ -1,0 +1,8 @@
+*.crt
+*.key
+*.pem
+*.log
+*.conf
+*.pcap
+*.db
+*.json
