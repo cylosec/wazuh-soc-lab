@@ -3,23 +3,23 @@ title: Wazuh SOC Lab Portfolio
 layout: default
 ---
 
-# 🧠 Wazuh SOC Lab: Threat Detection & Incident Response
+# Wazuh SOC Lab: Threat Detection & Incident Response
 
 Welcome to my homegrown Security Operations Center (SOC) lab.  
 This project demonstrates my ability to design, deploy, and secure a hybrid SOC using **Wazuh**, **OpenSearch**, and **custom detection rules**.
 
 ---
 
-## 💼 What You'll Find
+## What You'll Find
 
-- 🔎 **Infrastructure**: AD + Hyper-V + Ubuntu + SIEM
-- 💣 **Attack Simulations**: Phishing, Brute Force, Privilege Escalation, C2
-- 🛡️ **Wazuh Alerts**: Real JSON snapshots from my lab agents
-- 📘 **Incident Playbooks**: Detailed response actions
+- **Infrastructure**: AD + Hyper-V + Ubuntu + SIEM
+- **Attack Simulations**: Phishing, Brute Force, Privilege Escalation, C2
+- **Wazuh Alerts**: Real JSON snapshots from my lab agents
+- **Incident Playbooks**: Detailed response actions
 
 ---
 
-## 🔧 Live Lab Stack
+## Live Lab Stack
 
 | Component         | Description                                 |
 |------------------|---------------------------------------------|
@@ -31,7 +31,7 @@ This project demonstrates my ability to design, deploy, and secure a hybrid SOC 
 
 ---
 
-## 📂 Explore the Lab
+## Explore the Lab
 
 - [Infrastructure Overview](infrastructure/)
 - [Attack Simulations](attacks/)
@@ -40,13 +40,13 @@ This project demonstrates my ability to design, deploy, and secure a hybrid SOC 
 
 ---
 
-## 🧩 About This Project
+## About This Project
 
 This is a **real-world portfolio lab**. Every attack, alert, and configuration has been tested and verified.  
 It represents my passion for Blue Team defense, detection engineering, and continuous learning.
 
 ---
 
-> 🔐 _No sensitive data or real credentials are exposed. This lab runs in an isolated environment._
+> _No sensitive data or real credentials are exposed. This lab runs in an isolated environment._
 
 © 2025 [@cylosec](https://github.com/cylosec)
