@@ -1,0 +1,11 @@
+Summary,Issue Type,Description,Priority,Labels,Status,Assignee
+Deploy Wazuh Manager and Dashboard,Task,"Install and configure Wazuh Manager, OpenSearch Indexer, and Dashboard on Ubuntu server for SOC lab monitoring.",High,"wazuh,soc-lab,initial-setup",Done,cylo
+Install Wazuh Agent on iMac,Task,Install Wazuh agent on iMac (Intel) and connect to manager at 10.0.0.229.,Medium,"agent,imac,macos,soc-lab",Done,cylo
+Create `cylo-admin` user with RBAC in OpenSearch,Task,"Generate password hash, configure internal_users.yml, and apply via securityadmin.sh tool.",High,"user-management,rbac,wazuh",Done,cylo
+Upgrade Wazuh Indexer to v2.16.0,Bug,Resolve mismatch between Wazuh Dashboard v2.16.0 and Indexer v2.8.0 that caused 'server not ready' error.,Highest,"version-control,wazuh",Done,cylo
+Fix Wazuh Dashboard default route,Bug,Remove or correct `defaultRoute` setting pointing to `/app/wazuh` that led to “Application Not Found” error post-login.,Medium,"dashboard,route,ux",Done,cylo
+Assign kibana_user role to `cylo-admin` via API,Task,Use OpenSearch REST API to assign required dashboard role for saved objects and login permissions.,High,"rbac,opensearch,api",Done,cylo
+Validate Wazuh agent shows up in Dashboard,Task,Confirm iMac agent appears as `active` in the Wazuh dashboard under 'Agents' view.,Medium,"wazuh,validation,agent",Done,cylo
+Final verification of Wazuh Dashboard functionality,Task,"Confirm login, SSL certs, plugin loading, and dashboard access via `https://10.0.0.229:8443`.",Highest,"dashboard,certs,validation",Done,cylo
+Preserve config files during upgrade (`apt` prompts),Task,"During upgrade, answered `N` to retain custom config settings (cert paths, usernames, custom routes) and prevent overwrites.",Medium,"upgrade,config,wazuh",Done,cylo
+Restart services in order after upgrade,Task,Restart wazuh-indexer and wazuh-dashboard with proper delays to sync upgraded stack and clear stale connections.,High,"services,systemctl,wazuh",Done,cylo
