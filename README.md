@@ -49,16 +49,16 @@ This project documents the successful deployment, troubleshooting, and upgrade o
 ## Sample Issues Logged (Jira-style)
 | Task | Status |
 |------|--------|
-| Deploy Wazuh Stack | ✅ Done |
-| Install iMac Agent | ✅ Done |
-| Add cylo-admin User with RBAC | ✅ Done |
-| Fix Version Mismatch | ✅ Done |
-| Restore Dashboard Access | ✅ Done |
-| Validate iMac Visibility | ✅ Done |
+| Deploy Wazuh Stack | ☑️ Done |
+| Install iMac Agent | ☑️ Done |
+| Add cylo-admin User with RBAC | ☑️ Done |
+| Fix Version Mismatch | ☑️ Done |
+| Restore Dashboard Access | ☑️ Done |
+| Validate iMac Visibility | ☑️ Done |
 
 ---
 
-## Technologies Used
+## Technologies Used☑️
 - **Wazuh**: Open-source SIEM and XDR
 - **OpenSearch**: Indexer for alerts and logs
 - **Jira**: Project tracking (CSV Import format)
@@ -77,4 +77,4 @@ This project documents the successful deployment, troubleshooting, and upgrade o
 ## Author
 **Cylo**  
 Cybersecurity Lab Architect | Blue Team Engineer  
-📫 `cylo-admin@protonmail.com` *(example placeholder)*
+🖥️ support@sbaycenter.it.com
